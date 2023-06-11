@@ -5,7 +5,8 @@ public enum ErrorCode {
     AUTHENTICATION_FAILURE("AUTHENTICATION_FAILURE", "Geçersiz kullanıcı adı veya şifre"),
     VALIDATION_FAILURE("VALIDATION_ERROR", "Geçersiz istek"),
     DUPLICATE_DATA_FAILURE("DUPLICATE_FAILURE", "Bu veri daha önce kaydedilmiş."),
-    NOT_FOUND("NOT_FOUND", "Kayıt bulunamadı.");
+    NOT_FOUND("NOT_FOUND", "Kayıt bulunamadı."),
+    TASK_CATEGORY_NOT_FOUND("TASK_CATEGORY_NOT_FOUND", "Kategori bulunamadı.");
 
     ErrorCode(String validationError, String s) {
     }

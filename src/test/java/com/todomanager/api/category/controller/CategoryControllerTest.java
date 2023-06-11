@@ -25,7 +25,7 @@ import static org.mockito.ArgumentMatchers.any;
 
 import java.util.List;
 
-@WebMvcTest
+@WebMvcTest(controllers = CategoryController.class)
 public class CategoryControllerTest {
 
     @Autowired
